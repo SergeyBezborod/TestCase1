@@ -19,7 +19,7 @@ def case1():
         groups.append(temp)  # группы с повторениями
     print("ID клиентов: ", id_customers)
     print("Группы с повторениями: ", groups)
-    counts = Counter(groups)
+    counts = Counter(groups)  # считаем уникальные группы и число вхождений в них
     print("Группы:\t", counts.keys())
     print("Число вхождений:\t", counts.values())
 
@@ -34,7 +34,7 @@ def case2():
         groups.append(temp)  # группы с повторениями
     print("ID клиентов: ", id_customers)
     print("Группы с повторениями: ", groups)
-    counts = Counter(groups)
+    counts = Counter(groups)  # считаем уникальные группы и число вхождений в них
     print("Группы:\t", counts.keys())
     print("Число вхождений:\t", counts.values())
 
