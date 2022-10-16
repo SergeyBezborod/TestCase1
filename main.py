@@ -15,8 +15,8 @@ def case1():
     id_customers = [i for i in range(n_customers)]
     groups = []
     for i in id_customers:
-        temp = sum_numbers(i) #считаем сумму цифр в id
-        groups.append(temp) #группы с повторениями
+        temp = sum_numbers(i)  # считаем сумму цифр в id
+        groups.append(temp)  # группы с повторениями
     print("ID клиентов: ", id_customers)
     print("Группы с повторениями: ", groups)
     counts = Counter(groups)
